@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff1dba2;
+}
+
+header {
+    background-color: #EF5A6F;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 10px 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin:  15px;
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+#home {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#destinations {
+    background-color: #e6e6e6;
+    text-align: center;
+}
+.frame{
+    text-align: center;
+    background-color: #d4bdace5;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.destination {
+    text-align: center;
+}
+
+.destination img {
+    max-width: 70%;
+    max-height: 50%;
+    border: 10px solid #536493bb;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 6%;
+}
+
+#contact {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+h2 {
+    font-size: 30px;
+
+}
+h3 {
+    font-size: 30px;
+
+}
+p  {
+  font-size: 20px;  
+}
+a{
+    font-size: 20px;
+}

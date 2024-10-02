@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: white;
+}
+.wrapper    {
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 20px;
+    font-family: itim;
+}
+
+.header, .footer, .content1, .content2>div>div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.041);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.164); 
+    background: #fd9595;
+    padding: 10px;
+}
+
+.main-container {
+    flex: 6px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.content2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.content2>div {     
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.erik {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.header {
+    background: #fc0000;
+    max-height: 150px;
+}
+@media screen and (max-width: 800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: 1s;
+        background: #ff0000;
+        color: rgb(0, 0, 0);
+    }
+    h1{
+        background: white;
+        font-size:25px;
+    }
+    .header, .footer, .content1, .content2>div>div {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.164); 
+        background: #ffffff;
+        padding: 10px;
+    }
+    .main-container>div {
+        min-height: 400px;
+    }
+    .img1 {
+        height: 90%;
+        width: 90%;
+        border-radius: 10px;
+    }
+    .erik {
+        height: 90%;
+        width: 90%;
+        border-radius: 10px;
+    }
+    .logo{
+        background: white;
+    }
+    .content1 {
+        flex: 100%;
+    }
+
+    .header {
+        min-height: 90px;
+        background: rgb(255, 255, 255);
+    }
+
+    .footer {
+        min-height: 110px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .content2>div {
+        flex-direction: column;
+    }
+    
+    .content2>div>div {
+        min-height: 200px;
+    }
+}

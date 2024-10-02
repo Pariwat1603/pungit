@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FFF5E1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #C80036;
+    color: #fff;
+    padding: 30px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.37);
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.column {
+    width: calc(33.33% - 20px); 
+    float: left; 
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+}
+
+.item {
+    background-color: #FF6969;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #C80036;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    width: 14em;
+    height: 15em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.493);
+}
+#headimg {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+
+}
+.mitr-regular {
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .itim {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .itempage {
+    background-color: #FF6969;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);   
+}
+.home {
+    position: fixed;
+    background-color: #FF6969;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-left: 84%;  
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

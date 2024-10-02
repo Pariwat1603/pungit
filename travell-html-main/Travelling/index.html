@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำสถานที่ท่องเที่ยว</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>แนะนำสถานที่ท่องเที่ยว</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#destinations">สถานที่ท่องเที่ยว</a></li>
+                <li><a href="#contact">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>ยินดีต้อนรับสู่เว็บไซต์แนะนำสถานที่ท่องเที่ยว</h2>
+        <p>เว็บไซต์นี้จะพาคุณไปรู้จักกับสถานที่ท่องเที่ยวที่น่าสนใจในประเทศไทย</p>
+    </section>
+
+    <section id="destinations">
+        <h2>สถานที่ท่องเที่ยว</h2>
+        <div class="destination">
+            <img src="images/beach.jpg" alt="ชายหาด">
+            <h3>ชายหาด</h3>
+            <p>สถานที่ท่องเที่ยวที่มีทะเลสวยงามและชายหาดทรายขาวสะอาด</p>
+        </div>
+        <div class="destination">
+            <img src="images/mountain.jpg" alt="ภูเขา">
+            <h3>ภูเขา</h3>
+            <p>สถานที่ท่องเที่ยวที่มีธรรมชาติสวยงามและอากาศบริสุทธิ์</p>
+        </div>
+        <div class="destination">
+            <img src="images/city.jpg" alt="เมือง">
+            <h3>เมือง</h3>
+            <p>สถานที่ท่องเที่ยวที่มีศิลปวัฒนธรรมและแหล่งช้อปปิ้งมากมาย</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>ติดต่อเรา</h2>
+        <form>
+            <label for="name">ชื่อ:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">ข้อความ:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">ส่งข้อความ</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 แนะนำสถานที่ท่องเที่ยว</p>
+    </footer>
+</body>
+</html>
